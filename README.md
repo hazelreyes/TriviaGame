@@ -1,5 +1,7 @@
 # TriviaGame
 
+https://hazelreyes.github.io/TriviaGame/
+
 `TriviaGame` is a Javascript & jQuery web game where the user plays a timed trivia game.
 
 ## Purpose
