@@ -1,6 +1,10 @@
 body {
   background-image: url(../images/bg.jpg);
-  background-repeat: repeat;
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
@@ -37,6 +41,10 @@ h3 {
   text-align: center;
 }
 
+#div-wrapper {
+  text-align: center;
+}
+
 #time-remaining{
   background-color: red;
   color: rgb(0, 0, 0);
@@ -44,11 +52,11 @@ h3 {
   font-weight: bolder;
   padding: 10px;
   margin-top: 20px;
-  margin-left: 620px;
   margin-bottom: 20px;
   border: 2px solid white;
   border-radius: 50px;
   width: 240px;
+  display: inline-block;
 }
 
 #countdown-time {

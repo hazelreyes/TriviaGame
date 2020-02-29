@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Trivia Time!</title>
 
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
+
 <body>
-    
+
     <h1>TRIVIA GAME</h1>
     <h3 id="clickBelowToBegin"></h3>
     <div id="start-button" class="button">START</div>
 
-    <div id="time-remaining">Time Remaining: <span id="countdown-time"></span></div>
-    <form class="q-and-a"></form>
-    <div id="done-button" class="button">DONE</div>
+    <div id="div-wrapper">
+        <div id="time-remaining">Time Remaining: <span id="countdown-time"></span></div>
+        <form class="q-and-a"></form>
+        <div id="done-button" class="button">DONE</div>
+    </div>
 
     <h1 id="done">All done!</h1>
     <div id="correct-answers" class="answers">Correct Answers: </div>
@@ -25,4 +29,5 @@
     <script src="assets/javascript/app.js"></script>
 
 </body>
+
 </html>
